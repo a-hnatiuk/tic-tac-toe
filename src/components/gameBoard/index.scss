@@ -1,0 +1,16 @@
+.board-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.game-control {
+  display: grid;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.board {
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  justify-content: center;
+}
